@@ -1,0 +1,19 @@
+.verdans {
+    background-color:rgb(250, 200, 208);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#two {
+    color: rgb(146, 146, 245);
+    font-size: 36px;
+}
+
+#four {
+    background-color: rgb(124, 209, 124);
+    font-weight: 700;
+}
+
+
+#mids {
+    font-size:24px
+}
