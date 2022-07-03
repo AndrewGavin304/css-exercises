@@ -11,28 +11,38 @@ body {
 
 .header {
   display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 ul {
-  list-style: none
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(143, 143, 143);
 }
 
 .footer {
   display: flex;
+  background-color: rgb(235, 235, 235);
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .left-links {
   display: flex;
   margin-right: auto;
   gap: 20px;
-  padding: 20px;
+  padding: 0px;
 }
 
 .right-links {
   display: flex;
   margin-left: auto;
   gap: 20px;
-  padding: 20px;
 }
 
 img {
@@ -44,8 +54,13 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
+.buttons {
+  display: flex;
+  gap: 30px;
+}
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
