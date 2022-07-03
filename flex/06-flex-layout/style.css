@@ -2,6 +2,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
   overflow: hidden;
@@ -12,16 +13,26 @@ body {
   display: flex;
 }
 
+ul {
+  list-style: none
+}
+
 .footer {
   display: flex;
 }
 
 .left-links {
+  display: flex;
   margin-right: auto;
+  gap: 20px;
+  padding: 20px;
 }
 
 .right-links {
+  display: flex;
   margin-left: auto;
+  gap: 20px;
+  padding: 20px;
 }
 
 img {
@@ -41,4 +52,12 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.content {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
